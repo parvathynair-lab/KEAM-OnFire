@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* ---------- KEAM ONFIRE THEME ---------- */
+@theme {
+  --color-fire-orange: #FF5722;
+  --color-fire-violet: #7E57C2;
+  --color-fire-dark: #0a0a0a;
+  --color-fire-surface: #121212;
+  --color-fire-accent: #FFAB40;
+  --color-fire-gold: #FFD700;
+
+  --font-sans: Inter, sans-serif;
+  --font-brand: "Bebas Neue", cursive;
+  --font-serif: "EB Garamond", serif;
+}
+
+/* Background gradient */
+body {
+  background:
+    radial-gradient(circle at 15% 20%, #7E57C233 0%, transparent 40%),
+    radial-gradient(circle at 85% 70%, #FF572233 0%, transparent 40%),
+    linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
+  color: white;
+  min-height: 100vh;
+}

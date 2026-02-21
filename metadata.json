@@ -1,0 +1,7 @@
+{
+  "name": "KEAM OnFire ",
+  "description": "A high-octane entrance exam preparation platform featuring previous year questions as interactive quizzes, AI-powered explanations, and performance analytics with a vibrant orange and violet aesthetic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
